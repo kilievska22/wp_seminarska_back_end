@@ -1,0 +1,111 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+####books api
+GET http://localhost:8080/books
+Content-Type: application/x-www-form-urlencoded
+
+page=0&page-size=5
+
+###
+GET http://localhost:8080/books
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+DELETE http://localhost:8080/books/4
+
+###
+
+
+PATCH http://localhost:8080/books/6
+Content-Type: application/x-www-form-urlencoded
+
+title=title&plot=truefalse
+
+###
+
+
+
+####authors api
+GET http://localhost:8080/authors
+Content-Type: application/x-www-form-urlencoded
+
+page=0&page-size=5
+
+###
+GET http://localhost:8080/authors
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+DELETE http://localhost:8080/authors/2
+
+###
+
+
+PATCH http://localhost:8080/authors/1
+Content-Type: application/x-www-form-urlencoded
+
+name=name&date_of_birth=2020-01-20&biography=truefalse
+
+###
+
+
+POST http://localhost:8080/authors
+Content-Type: application/x-www-form-urlencoded
+
+name=name_sname&date_of_birth=2020-01-20&biography=truefalse
+
+###employee
+
+GET http://localhost:8080/employees
+Content-Type: application/x-www-form-urlencoded
+
+###
+PATCH http://localhost:8080/employees/78990099
+Content-Type: application/x-www-form-urlencoded
+
+name=name&working_time=2&salary=25000&position=librarian&phone=078217371&email=poohjiok
+
+###member
+GET http://localhost:8080/members
+Content-Type: application/x-www-form-urlencoded
+
+###genres
+GET http://localhost:8080/genres
+
+###
+GET http://localhost:8080/editions
+
+###
+
+
+
+GET http://localhost:8080/genres
+
+###
+GET http://localhost:8080/authors/getBorrowings
+
+###
+GET http://localhost:8080/penalties/dueDateToday
+
+###
+GET http://localhost:8080/penalties/search?term=1
+Content-Type: application/x-www-form-urlencoded
+
+
+
+
+###
+GET http://localhost:8080/books/search?term=classicism1
+
+###
+
+GET http://localhost:8080/books/search?term=classicism1
+
+###
