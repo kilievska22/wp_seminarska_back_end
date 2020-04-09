@@ -9,7 +9,7 @@ otvorete Command Prompt i pojdete vo lokacijata kade sto se naogja mysql_db fold
 Najavete se so user root i pasvord 1234.
 Potoa otvorete ja bazata library_db (koja se naogja vo leviot del vo listata so site kreirani bazi). Od gornoto meni izberete Import i odberete go fajlot library_db.sql. So toa ke se kreiraat 
 tabelite so site podatoci.
-Backend aplikacijata  demo otvorete ja vo InteliJ IDEA  i startuvajte ja so run/debug.
-Istoto napravete go i so front-end aplikacijata lab-3. 
+Backend aplikacijata   otvorete ja vo InteliJ IDEA  i startuvajte ja so run/debug.
+Istoto napravete go i so front-end aplikacijata. 
 Aplikacijata e dostapna na localhost:3000.
 
